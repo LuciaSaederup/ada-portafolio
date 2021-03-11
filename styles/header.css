@@ -1,5 +1,29 @@
 header{
-    height: 80px;
+    height: 75px;
     width: 100%;
     background-color: antiquewhite;
+    display: inline-block;
 }
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:lighter;
+    font-style: italic;
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+.lista{
+    padding-left: 3px;
+    padding-right: 3px;
+    color: black;
+    text-align: center;
+    text-justify: distribute;
+}
+
