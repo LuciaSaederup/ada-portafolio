@@ -1,0 +1,29 @@
+.contacto {
+    height: 600px;
+    background-color: rgb(53, 67, 255);
+    align-content: center;
+    align-items: center;
+}
+
+.contacto .container {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto .container>div {
+    flex-direction: column;
+}
+
+.field {
+    flex-direction: row;
+}
+
+.contacto>ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

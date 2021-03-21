@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucía Saederup</title>
+    <title>👽Lucía Saederup</title>
     <!-- Styles -->
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/hello.css">
-    <link rel="stylesheet" href="/styles/form.css">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/conocimientos.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/seccion1.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/seccion2.css">
+    <link rel="stylesheet" href="./styles/seccion3.css">
+    <link rel="stylesheet" href="./styles/seccion4.css">
+</head>
+
+<body>
     <header>
         <div class="menu">
             <nav>
@@ -21,30 +25,105 @@
                     <li class="lista"> <a href="#hola" class="a1"> Hola</a></li>
                     <li class="lista"><a href="#conocimientos" class="a1">Conomientos</a></li>
                     <li class="lista"><a href="#proyectos" class="a1">Proyectos</a></li>
-                    <li class="lista"><a href="#contacto" class="a1"> <div class="boton"> Contacto</div></a></li>
+                    <li class="lista">
+                        <a href="#contacto">
+                            <div class="boton"> Contacto</div>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="saludo">
-            <div class="hola">
-                <p class="hi">Hola! Soy</p>
-                <h1>Lucía Saederup</h1>
-                <p class="wido">Desarrolladora y amante de las mascotas</p>
-                <div class="LoQueHago boton1">Lo que hago</div>
-            </div>
-            <div> <img src="assets/images/undraw_Nature_fun_re_iney.svg" alt="img" class="img"> </div>
-        </section>
+        <a name="hola">
+            <section class="saludo">
+                <div class="hola">
+                    <div class="HI">
+                        <p>Hola! Soy</p>
+                    </div>
+                    <h1 class="nombre">Lucía Saederup</h1>
+                    <p class="wido">Desarrolladora y amante de las mascotas</p>
+                    <div class="LoQueHago boton1"> <a href="" class="loquehago"> Lo que hago</a></div>
+                </div>
+                <div> <img src="assets/images/undraw_Nature_fun_re_iney.svg" alt="img" class="img"> </div>
+            </section>
+        </a>
+        <a name="conocimientos"></a>
         <section class="conocimientos">
-            <div>
-
+            <div class="container">
+                <h1 class="titulo">Mis conocimientos</h1>
+                <p class="skills">En Ada aprendí a utilizar HTML Y CSS. Además, realicé cursos anteriores de JavaScript y Java. También sé utilizar Adobe Photoshop por manija.
+                </p>
             </div>
+            <div class="contenedorcajas">
+                <div class="cajita">
+                    <img src="https://icongr.am/devicon/css3-original.svg?size=104&color=ffffff" alt="CSS" class="medidas">
+                    <h2 class="skilltitulo">CSS 3</h2>
+                </div>
+                <div class="cajita">
+                    <img src="https://icongr.am/devicon/html5-original.svg?size=79&color=ffffff" alt="HTML5" class="medidas">
+                    <h2 class="skilltitulo">HTML 5</h2>
+                </div>
+                <div class="cajita">
+                    <img src="https://icongr.am/simple/adobephotoshop.svg?size=79&color=2e1443&colored=false" alt="adobephotoshop" class="medidas">
+                    <h2 class="skilltitulo">Adobe Photoshop</h2>
+                </div>
+            </div>
+            <div class="contenedorcajas">
+                <div class="cajita">
+                    <img src="https://icongr.am/devicon/javascript-original.svg?size=79&color=ffffff" alt="javascript" class="medidas">
+                    <h2 class="skilltitulo">JavaScript</h2>
+                </div>
+                <div class="cajita">
+                    <img src="https://icongr.am/devicon/java-original.svg?size=79&color=ffffff" alt="JAVA" class="medidas">
+                    <h2 class="skilltitulo">JAVA</h2>
+                </div>
+                <div class="cajita">
+                    <img src="https://icongr.am/devicon/github-original-wordmark.svg?size=79&color=2e1443" alt="Github" class="medidas">
+                    <h2 class="skilltitulo">GitHub</h2>
+                </div>
+            </div>
+        </section>
+        <section class="frase">
 
+        </section>
+        <section class="proyectos">
+
+        </section>
+        <section class="contacto">
+            <div class="container">
+                <div>
+                    <h3>Contactame</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro deleniti, veniam hic culpa consequuntur minima in nobis perferendis, tempore quas minus sunt deserunt? Beatae, non est commodi obcaecati autem rem?</p>
+                    <ul>
+                        <li>LuciaSaederup</li>
+                        <li>LuciaSaederup</li>
+                        <li>luciasaederup@gmail.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Escribime</h3>
+                    <form action="/test" method="POST">
+                        <div>
+                            <div class="field"><label for="idName">Nombre*</label>
+                                <input type="text" name="name" id="idName" placeholder="Nombre" required/></div>
+                            <div class="field"><label for="idApellido">Apellido*</label>
+                                <input type="text" name="apellido" id="idApellido" placeholder="Apellido" required/></div>
+                        </div>
+                        <div class="field"><label for="idMail">Mail*</label>
+                            <input type="email" name="mail" id="idMail" placeholder="Mail" required/></div>
+                        <div class="field"><label for="idMensaje">Mensaje*</label>
+                            <textarea type="text" name="mensaje" id="idMensaje" placeholder="Mensaje" required></textarea></div>
+                        <button type="submit">Enviar</button>
+
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
 
     </footer>
-    </body>
+</body>
+
 </html>

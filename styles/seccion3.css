@@ -1,0 +1,7 @@
+.frase {
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+}

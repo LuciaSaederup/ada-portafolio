@@ -1,0 +1,92 @@
+.saludo {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    color: #FF6399;
+}
+
+.HI {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: #FF6399 !important;
+}
+
+.wido {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF6399;
+}
+
+.LoQueHago {
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.loquehago {
+    color: white;
+}
+
+.boton1 {
+    width: 150px;
+    height: 30px;
+    background-color: #FF6399;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.img {
+    width: 560px;
+    height: 500px;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.hola {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+    /*color: #FF6399;*/
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.sobreMi {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nombre {
+    /*font-size: 50px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 60px;
+    font-weight: 800;
+    color: #FF6399;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    margin-right: 60px;
+}
