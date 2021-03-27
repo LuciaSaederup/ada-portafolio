@@ -3,7 +3,7 @@
     justify-content: center;
     padding: 110px 40px 130px;
     text-align: center;
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-color: rgb(99, 231, 203);
     flex-direction: column;
@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.conocimientos .container {
     height: 100px;
     width: 500px;
     background-color: rgb(99, 231, 203);
@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.titulo {
+.container .titulo {
     font-size: 45px;
     color: white;
     font-weight: 900;
@@ -33,7 +33,7 @@
     width: 400px;
     text-align: center;
     align-items: center;
-    color: white;
+    color: rgb(8, 6, 6);
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -41,8 +41,8 @@
 }
 
 .contenedorcajas {
-    width: 700px;
-    height: 500px;
+    width: 900px;
+    height: 200px;
     background-color: rgb(99, 231, 203);
     display: flex;
     flex-direction: row;
@@ -51,17 +51,12 @@
     box-sizing: border-box;
 }
 
-.cajita {
-    color: #2e2e31;
-    padding: 40px 20px;
-    background-color: #fff;
+.contenedorcajas .cajita {
+    padding: 10px 10px;
     border: 1px solid #dddfe5;
+    background-color: whitesmoke;
     border-radius: 8px;
-    width: 210px;
-    margin: 10px;
-    padding: 30px;
     transition: 0.2s;
-    height: 210px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +65,7 @@
 
 .cajita:hover {
     border: 1px solid blue;
+    background-color: white;
 }
 
 .medidas {
@@ -78,15 +74,20 @@
     align-items: center;
     margin-right: 80px;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 10px;
     align-content: center;
 }
 
 .skilltitulo {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     font-size: 1.25em;
     font-weight: 700;
     color: black;
     align-content: center;
     text-align: center;
+}
+
+.container .skills {
+    font-size: 15px;
+    font-weight: 700;
 }

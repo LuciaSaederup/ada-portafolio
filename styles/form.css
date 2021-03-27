@@ -1,29 +1,107 @@
 .contacto {
-    height: 600px;
     background-color: rgb(53, 67, 255);
+    font-size: 1em;
+    color: #FF6399;
+    display: flex;
+    justify-content: center;
     align-content: center;
     align-items: center;
 }
 
 .contacto .container {
     background-color: white;
+    height: 500px;
+    width: 900px;
     border: 1px solid grey;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
 }
 
-.contacto .container>div {
-    flex-direction: column;
+.container h3 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.container p {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .field {
     flex-direction: row;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: left;
 }
 
-.contacto>ul {
+.contacto ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.contacto li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.container .escribime {
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 500px;
+    text-align: left;
+    font-weight: 300;
+    align-items: center;
+    display: flex;
+}
+
+.container .contactame {
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    margin-right: 80px;
+    height: 350px;
+    width: 300px;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.escribime button {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid aqua;
+    margin-left: 150px;
+}
+
+button:hover {
+    border: black;
+}
+
+.escribime div {
+    display: flex;
+    flex-direction: row;
+}
+
+input textarea {
+    border: 0;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+    transition: 0.2s;
 }
