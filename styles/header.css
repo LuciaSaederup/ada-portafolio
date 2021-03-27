@@ -67,3 +67,9 @@ header {
 .boton:hover {
     border: 1px solid #FF6399;
 }
+
+@media only screen and (max-width: 400px) {
+    header {
+        display: none;
+    }
+}

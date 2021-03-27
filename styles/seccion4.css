@@ -1,5 +1,4 @@
 .proyectos {
-    height: 600px;
     background-color: rgb(99, 231, 203);
     display: flex;
     flex-direction: column;
@@ -8,8 +7,6 @@
 }
 
 .proyectos .container {
-    height: 100px;
-    width: 900px;
     background-color: rgb(99, 231, 203);
     margin-top: 10px;
     display: flex;

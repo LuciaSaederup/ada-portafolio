@@ -1,6 +1,4 @@
 .saludo {
-    height: 600px;
-    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -89,4 +87,14 @@ img {
     padding-left: 80px;
     padding-bottom: 30px;
     margin-right: 60px;
+}
+
+@media only screen and (max-width: 400px) {
+    .saludo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hola {
+        width: 100%;
+    }
 }

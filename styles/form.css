@@ -10,14 +10,13 @@
 
 .contacto .container {
     background-color: white;
-    height: 500px;
-    width: 900px;
     border: 1px solid grey;
     border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .container h3 {
@@ -32,7 +31,8 @@
 }
 
 .field {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     border-radius: 30px;
     text-align: left;
@@ -54,8 +54,6 @@
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 500px;
-    width: 500px;
     text-align: left;
     font-weight: 300;
     align-items: center;
@@ -67,8 +65,6 @@
     text-align: left;
     background-color: white;
     margin-right: 80px;
-    height: 350px;
-    width: 300px;
     font-size: 1.25em;
     font-weight: 300;
     margin-left: 40px;
@@ -82,19 +78,41 @@
     border-radius: 7px;
     border: 1px solid aqua;
     margin-left: 150px;
+    background-color: blueviolet;
+    color: white;
 }
 
 button:hover {
     border: black;
 }
 
-.escribime div {
+.escribime label {
+    padding-bottom: 10px;
+}
+
+
+/*.escribime div {
+    display: flex;
+    flex-direction: row;
+
+
+}*/
+
+.escribime div.row {
     display: flex;
     flex-direction: row;
 }
 
-input textarea {
-    border: 0;
+.escribime .row div.field:first-child {
+    padding-right: 5px;
+}
+
+.escribime .row div.field:last-child {
+    padding-left: 5px;
+}
+
+.escribime input,
+.escribime textarea {
     border-radius: 20px;
     background-color: #f6f7fb;
     border: 1px solid #f6f7fb;
@@ -104,4 +122,30 @@ input textarea {
     outline: none;
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
     transition: 0.2s;
+}
+
+.escribime textarea:focus,
+.escribime input:focus {
+    border: 1px solid #66f5eb;
+}
+
+.contactame a {
+    color: aquamarine;
+}
+
+.contactame a:focus {
+    border: 1px solid aqua;
+    box-shadow: 0 0 5px 0px #66f5eb;
+    border-radius: 15px;
+    outline: 0;
+    padding: 5px
+}
+
+@media only screen and (max-width: 400px) {
+    .contacto .container {
+        flex-direction: column;
+    }
+    .escribime div.row {
+        flex-direction: column;
+    }
 }
