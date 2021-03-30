@@ -1,7 +1,7 @@
 .contacto {
-    background-color: rgb(53, 67, 255);
+    background-color: #EBBF9D;
     font-size: 1em;
-    color: #FF6399;
+    color: black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -19,15 +19,16 @@
     margin-bottom: 100px;
 }
 
-.container h3 {
+.contacto .container h3 {
     font-size: 45px;
     font-weight: 900;
 }
 
-.container p {
+.contacto .container p {
     max-width: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .field {
@@ -36,6 +37,10 @@
     margin-top: 10px;
     border-radius: 30px;
     text-align: left;
+}
+
+.contactame li {
+    margin-top: 30px;
 }
 
 .contacto ul {
@@ -76,9 +81,9 @@
     width: 100px;
     height: 30px;
     border-radius: 7px;
-    border: 1px solid aqua;
+    border: 1px solid #589EAD;
     margin-left: 150px;
-    background-color: blueviolet;
+    background-color: #589EAD;
     color: white;
 }
 
@@ -89,14 +94,6 @@ button:hover {
 .escribime label {
     padding-bottom: 10px;
 }
-
-
-/*.escribime div {
-    display: flex;
-    flex-direction: row;
-
-
-}*/
 
 .escribime div.row {
     display: flex;
@@ -126,16 +123,20 @@ button:hover {
 
 .escribime textarea:focus,
 .escribime input:focus {
-    border: 1px solid #66f5eb;
+    border: 1px solid #589EAD;
 }
 
 .contactame a {
-    color: aquamarine;
+    color: black;
+}
+
+.contactame a:hover {
+    color: #589EAD;
 }
 
 .contactame a:focus {
-    border: 1px solid aqua;
-    box-shadow: 0 0 5px 0px #66f5eb;
+    border: 1px solid #589EAD;
+    box-shadow: 0 0 5px 0px #589EAD;
     border-radius: 15px;
     outline: 0;
     padding: 5px
@@ -144,8 +145,17 @@ button:hover {
 @media only screen and (max-width: 400px) {
     .contacto .container {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .escribime div.row {
         flex-direction: column;
+    }
+    /*.contactame li a {
+        font-size: 15px;
+    }*/
+    contacto. ul {
+        align-items: center;
+        width: 500px;
     }
 }

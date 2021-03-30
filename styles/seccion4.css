@@ -1,16 +1,104 @@
 .proyectos {
-    background-color: rgb(99, 231, 203);
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    background-color: #FFDEC4;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .proyectos .container {
-    background-color: rgb(99, 231, 203);
+    background-color: #FFDEC4;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyectos .container h2 {
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+}
+
+.proyectos .container p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
     margin-top: 10px;
+    width: 700px;
+}
+
+.proyectos .contenedorcajas {
+    background-color: #FFDEC4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.proyectos .contenedorcajas .cajita {
+    padding: 10px 10px;
+    border: 1px solid #dddfe5;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    transition: 0.2s;
+    text-align: center;
+    align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.cajita:hover {
+    border: 1px solid #4A949E;
+    background-color: white;
+}
+
+.proyectos .cajita img {
+    width: 100px;
+    height: 100px;
     align-items: center;
+    margin: 30px 60px;
+}
+
+.proyectos .cajita h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+    .proyectos .contenedorcajas {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .proyectos .container p {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        width: 350px;
+    }
+    .contenedorcajas .cajita img {
+        /*width: 80px;*/
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        /*margin: 30px 60px;*/
+    }
+    .contenedorcajas .cajita {
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        width: 300px;
+        align-items: center;
+        margin-left: 50px;
+    }
 }

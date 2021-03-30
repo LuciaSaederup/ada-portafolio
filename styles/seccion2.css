@@ -1,53 +1,41 @@
 .conocimientos {
     display: flex;
     justify-content: center;
-    padding: 110px 40px 130px;
-    text-align: center;
-    height: 800px;
-    width: 100%;
-    background-color: rgb(99, 231, 203);
+    background-color: #FFDEC4;
     flex-direction: column;
-    align-items: center;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .conocimientos .container {
-    height: 100px;
-    width: 500px;
-    background-color: rgb(99, 231, 203);
-    margin-top: 50px;
+    background-color: #FFDEC4;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
-.container .titulo {
+.conocimientos .container h2 {
     font-size: 45px;
     color: white;
     font-weight: 900;
 }
 
-.skills {
-    height: 500px;
-    width: 400px;
-    text-align: center;
-    align-items: center;
-    color: rgb(8, 6, 6);
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    flex-direction: column;
+.conocimientos .container p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    width: 700px;
 }
 
 .contenedorcajas {
-    width: 900px;
-    height: 200px;
-    background-color: rgb(99, 231, 203);
+    background-color: #FFDEC4;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 
@@ -57,37 +45,59 @@
     background-color: whitesmoke;
     border-radius: 8px;
     transition: 0.2s;
+    text-align: center;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
 .cajita:hover {
-    border: 1px solid blue;
+    border: 1px solid #4A949E;
     background-color: white;
 }
 
-.medidas {
-    width: 150px;
-    height: 150px;
+.cajita img {
+    width: 100px;
+    height: 100px;
     align-items: center;
-    margin-right: 80px;
-    flex-direction: row;
-    margin-top: 10px;
-    align-content: center;
+    margin: 30px 60px;
 }
 
-.skilltitulo {
+.conocimientos .cajita h3 {
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 10px;
     font-size: 1.25em;
     font-weight: 700;
     color: black;
-    align-content: center;
     text-align: center;
+    display: flex;
 }
 
-.container .skills {
-    font-size: 15px;
-    font-weight: 700;
+@media only screen and (max-width: 400px) {
+    .contenedorcajas {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .conocimientos .container p {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        width: 350px;
+    }
+    .contenedorcajas .cajita img {
+        /*width: 80px;*/
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        /*margin: 30px 60px;*/
+    }
+    .contenedorcajas .cajita {
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        width: 300px;
+        align-items: center;
+        margin-left: 50px;
+    }
 }

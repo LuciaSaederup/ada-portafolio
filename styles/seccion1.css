@@ -2,21 +2,21 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    color: #FF6399;
+    color: #FFDEC4;
 }
 
-.HI {
+.hi {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 5px;
     font-weight: 800;
-    color: #FF6399 !important;
+    color: #FFDEC4 !important;
 }
 
 .wido {
     font-size: 20px;
     font-weight: 500;
-    color: #FF6399;
+    color: #FFDEC4;
 }
 
 .LoQueHago {
@@ -26,27 +26,19 @@
 }
 
 .loquehago {
-    color: white;
+    color: #9E785A;
 }
 
 .boton1 {
     width: 150px;
     height: 30px;
-    background-color: #FF6399;
+    background-color: #FFDEC4;
     align-content: center;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-}
-
-.img {
-    width: 560px;
-    height: 500px;
-    margin-top: 30px;
-    padding-left: 80px;
-    padding-bottom: 30px;
 }
 
 .hola {
@@ -73,7 +65,7 @@
     justify-content: space-between;
     font-size: 60px;
     font-weight: 800;
-    color: #FF6399;
+    color: #FFDEC4;
 }
 
 nav a {
@@ -81,20 +73,37 @@ nav a {
     color: white;
 }
 
-img {
+.saludo img {
     height: 500px;
     width: 500px;
     padding-left: 80px;
-    padding-bottom: 30px;
     margin-right: 60px;
+    margin-top: 80px;
 }
 
 @media only screen and (max-width: 400px) {
     .saludo {
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
-    .hola {
+    .saludo .hola {
         width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-right: 80px;
+    }
+    .saludo img {
+        height: 400px;
+        width: 400px;
+        padding-left: 80px;
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+    .hola .hi {
+        text-align: center;
+        align-items: center;
+        margin-right: 50px;
     }
 }
