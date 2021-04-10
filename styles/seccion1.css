@@ -19,26 +19,16 @@
     color: var(--dark-font-color);
 }
 
-.LoQueHago {
+.loquehago {
+    color: var(--primary-font-color);
+    padding: 10px 20px;
+    background-color: var(--primary-background-color);
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
     margin-top: 40px;
     font-size: 20px;
     text-decoration: none;
-}
-
-.loquehago {
-    color: var(--primary-font-color);
-}
-
-.boton1 {
-    width: 150px;
-    height: 30px;
-    background-color: var(--primary-background-color);
-    align-content: center;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
 }
 
 .hola {
@@ -81,7 +71,7 @@ nav a {
     margin-top: 80px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 476px) {
     .saludo {
         flex-direction: column;
         text-align: center;
