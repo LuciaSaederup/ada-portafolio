@@ -10,13 +10,13 @@
     margin-top: 0;
     margin-bottom: 5px;
     font-weight: 800;
-    color: #FFDEC4 !important;
+    color: var(--dark-font-color);
 }
 
 .wido {
     font-size: 20px;
     font-weight: 500;
-    color: #FFDEC4;
+    color: var(--dark-font-color);
 }
 
 .LoQueHago {
@@ -26,13 +26,13 @@
 }
 
 .loquehago {
-    color: #9E785A;
+    color: var(--primary-font-color);
 }
 
 .boton1 {
     width: 150px;
     height: 30px;
-    background-color: #FFDEC4;
+    background-color: var(--primary-background-color);
     align-content: center;
     text-align: center;
     display: flex;
@@ -65,17 +65,15 @@
     justify-content: space-between;
     font-size: 60px;
     font-weight: 800;
-    color: #FFDEC4;
+    color: var(--primary-background-color);
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-font-color);
 }
 
 .saludo img {
-    height: 500px;
-    width: 500px;
     padding-left: 80px;
     margin-right: 60px;
     margin-top: 80px;
@@ -95,8 +93,7 @@ nav a {
         margin-right: 80px;
     }
     .saludo img {
-        height: 400px;
-        width: 400px;
+        width: 300px;
         padding-left: 80px;
         margin-right: 60px;
         margin-top: 10px;

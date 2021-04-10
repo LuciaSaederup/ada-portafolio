@@ -1,12 +1,12 @@
 header {
     width: 100%;
     height: 80px;
-    background-color: #4A949E;
+    background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1em;
-    box-shadow: 0 0 10px rgb(30, 49, 49);
+    box-shadow: 0 0 10px var(--primary-background-color);
     position: fixed;
 }
 
@@ -46,13 +46,14 @@ header {
 }
 
 .a1:hover {
-    color: #EBBF9D;
+    color: var(--dark-font-color);
 }
 
 .boton {
     width: 100px;
     height: 30px;
-    background-color: #9DE2EB;
+    background-color: var(--primary-font-color);
+    color: var(--dark-font-color);
     align-content: center;
     text-align: center;
     display: flex;

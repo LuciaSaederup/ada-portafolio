@@ -1,12 +1,25 @@
+:root {
+    --primary-background-color: #f59634;
+    --primary-background-color-dark: #f27d33;
+    --secondary-background-color: #f8f8f8;
+    --primary-font-color: #ffffff;
+    --secondary-font-color: #f59634;
+    --dark-font-color: #3a3a3a;
+}
+
 * {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
 }
 
 @media only screen and (max-width: 400px) {

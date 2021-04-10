@@ -1,14 +1,13 @@
 .proyectos {
     display: flex;
     justify-content: center;
-    background-color: #FFDEC4;
     flex-direction: column;
     box-sizing: border-box;
     text-align: center;
+    padding: 80px 0;
 }
 
 .proyectos .container {
-    background-color: #FFDEC4;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -18,7 +17,7 @@
 
 .proyectos .container h2 {
     font-size: 45px;
-    color: white;
+    color: var(--secondary-font-color);
     font-weight: 900;
 }
 
@@ -28,15 +27,14 @@
     color: black;
     margin-bottom: 20px;
     margin-top: 10px;
-    width: 700px;
+    max-width: 700px;
 }
 
 .proyectos .contenedorcajas {
-    background-color: #FFDEC4;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 10px 0;
+    margin-top: 40px;
     box-sizing: border-box;
 }
 
@@ -77,6 +75,9 @@
 }
 
 @media only screen and (max-width: 400px) {
+    .proyectos {
+        padding: 40px 0;
+    }
     .proyectos .contenedorcajas {
         flex-direction: column;
         justify-content: space-evenly;
@@ -85,7 +86,6 @@
         font-size: 20px;
         font-weight: 500;
         margin-top: 10px;
-        width: 350px;
     }
     .contenedorcajas .cajita img {
         /*width: 80px;*/
@@ -96,9 +96,11 @@
     }
     .contenedorcajas .cajita {
         justify-content: space-evenly;
-        margin-bottom: 20px;
-        width: 300px;
+        max-width: 300px;
         align-items: center;
-        margin-left: 50px;
+        margin: 0 auto 20px auto;
+    }
+    .proyectos .container h2 {
+        font-size: 32px;
     }
 }

@@ -1,177 +1,177 @@
-                                                                                                            .contacto {
-                                                                                                                background-color: #EBBF9D;
-                                                                                                                font-size: 1em;
-                                                                                                                color: black;
-                                                                                                                display: flex;
-                                                                                                                justify-content: center;
-                                                                                                                align-content: center;
-                                                                                                                align-items: center;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contacto .container {
-                                                                                                                background-color: white;
-                                                                                                                border: 1px solid grey;
-                                                                                                                border-radius: 10px;
-                                                                                                                padding: 20px;
-                                                                                                                display: flex;
-                                                                                                                flex-direction: row;
-                                                                                                                margin-top: 100px;
-                                                                                                                margin-bottom: 100px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contacto .container h3 {
-                                                                                                                font-size: 45px;
-                                                                                                                font-weight: 900;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contacto .container p {
-                                                                                                                max-width: 400px;
-                                                                                                                margin-top: 20px;
-                                                                                                                margin-bottom: 20px;
-                                                                                                                font-weight: 300;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .field {
-                                                                                                                display: flex;
-                                                                                                                flex-direction: column;
-                                                                                                                margin-top: 10px;
-                                                                                                                border-radius: 30px;
-                                                                                                                text-align: left;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contactame li {
-                                                                                                                margin-top: 30px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contacto ul {
-                                                                                                                display: flex;
-                                                                                                                justify-content: center;
-                                                                                                                flex-direction: column;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contacto li {
-                                                                                                                margin-bottom: 20px;
-                                                                                                                list-style: none;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .container .escribime {
-                                                                                                                flex-direction: column;
-                                                                                                                background-color: white;
-                                                                                                                margin-top: 20px;
-                                                                                                                margin-bottom: 20px;
-                                                                                                                text-align: left;
-                                                                                                                font-weight: 300;
-                                                                                                                align-items: center;
-                                                                                                                display: flex;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .container .contactame {
-                                                                                                                flex-direction: column;
-                                                                                                                text-align: left;
-                                                                                                                background-color: white;
-                                                                                                                margin-right: 80px;
-                                                                                                                font-size: 1.25em;
-                                                                                                                font-weight: 300;
-                                                                                                                margin-left: 40px;
-                                                                                                                align-items: center;
-                                                                                                                margin-top: 20px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime button {
-                                                                                                                width: 100px;
-                                                                                                                height: 30px;
-                                                                                                                border-radius: 7px;
-                                                                                                                border: 1px solid #589EAD;
-                                                                                                                margin-left: 150px;
-                                                                                                                background-color: #589EAD;
-                                                                                                                color: white;
-                                                                                                            }
-                                                                                                            
-                                                                                                            button:hover {
-                                                                                                                border: black;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime label {
-                                                                                                                padding-bottom: 10px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime div.row {
-                                                                                                                display: flex;
-                                                                                                                flex-direction: row;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime .row div.field:first-child {
-                                                                                                                padding-right: 5px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime .row div.field:last-child {
-                                                                                                                padding-left: 5px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime input,
-                                                                                                            .escribime textarea {
-                                                                                                                border-radius: 20px;
-                                                                                                                background-color: #f6f7fb;
-                                                                                                                border: 1px solid #f6f7fb;
-                                                                                                                padding: 10px 15px;
-                                                                                                                display: block;
-                                                                                                                width: 100%;
-                                                                                                                outline: none;
-                                                                                                                box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
-                                                                                                                transition: 0.2s;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .escribime textarea:focus,
-                                                                                                            .escribime input:focus {
-                                                                                                                border: 1px solid #589EAD;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contactame a {
-                                                                                                                color: black;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contactame a:hover {
-                                                                                                                color: #589EAD;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .contactame a:focus {
-                                                                                                                border: 1px solid #589EAD;
-                                                                                                                box-shadow: 0 0 5px 0px #589EAD;
-                                                                                                                border-radius: 15px;
-                                                                                                                outline: 0;
-                                                                                                                padding: 5px
-                                                                                                            }
-                                                                                                            
-                                                                                                            @media only screen and (max-width: 400px) {
-                                                                                                                .contacto .container {
-                                                                                                                    flex-direction: column;
-                                                                                                                    text-align: center;
-                                                                                                                }
-                                                                                                                .escribime div.row {
-                                                                                                                    flex-direction: column;
-                                                                                                                }
-                                                                                                                .contacto. ul {
-                                                                                                                    align-items: center;
-                                                                                                                    width: 500px;
-                                                                                                                }
-                                                                                                                .escribime button {
-                                                                                                                    margin-left: 80px;
-                                                                                                                }
-                                                                                                                .container .contactame {
-                                                                                                                    text-align: center;
-                                                                                                                    margin-right: 80px;
-                                                                                                                    margin-left: 40px;
-                                                                                                                    align-items: center;
-                                                                                                                }
-                                                                                                                .contacto .container h3 {
-                                                                                                                    margin-left: 30px;
-                                                                                                                }
-                                                                                                                .contactame a {
-                                                                                                                    align-items: center;
-                                                                                                                }
-                                                                                                                .escribime h3 {
-                                                                                                                    text-align: center;
-                                                                                                                    align-items: center;
-                                                                                                                    margin-right: 40px;
-                                                                                                                }
-                                                                                                            }
+.contacto {
+    background-color: var(--secondary-background-color);
+    font-size: 1em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contacto .container {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto .container h3 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.contacto .container p {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.contactame li {
+    margin-top: 30px;
+}
+
+.contactame li a i {
+    color: var(--secondary-font-color);
+}
+
+.contacto ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacto li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.container .escribime {
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 300;
+    align-items: center;
+    display: flex;
+}
+
+.container .contactame {
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    margin-right: 80px;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.escribime button {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--primary-background-color);
+    color: var(--primary-font-color);
+}
+
+button:hover {
+    border: black;
+}
+
+.escribime label {
+    padding-bottom: 10px;
+}
+
+.escribime div.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.escribime .row div.field:first-child {
+    padding-right: 5px;
+}
+
+.escribime .row div.field:last-child {
+    padding-left: 5px;
+}
+
+.escribime input,
+.escribime textarea {
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+    transition: 0.2s;
+}
+
+.escribime textarea:focus,
+.escribime input:focus {
+    border: 1px solid #589EAD;
+}
+
+.contactame a {
+    color: black;
+}
+
+.contactame a:hover {
+    color: #589EAD;
+}
+
+.contactame a:focus {
+    border: 1px solid #589EAD;
+    box-shadow: 0 0 5px 0px #589EAD;
+    border-radius: 15px;
+    outline: 0;
+    padding: 5px
+}
+
+@media only screen and (max-width: 400px) {
+    .contacto {
+        background-color: white;
+    }
+    .contacto .container {
+        flex-direction: column;
+        text-align: center;
+        border: none;
+        padding: 40px 0;
+    }
+    .escribime div.row {
+        flex-direction: column;
+    }
+    .contacto ul {
+        align-items: center;
+    }
+    .container .contactame {
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+        align-items: center;
+    }
+    .contacto .container h3 {
+        font-size: 32px;
+    }
+    .contactame a {
+        align-items: center;
+    }
+    .escribime h3 {
+        text-align: center;
+        align-items: center;
+    }
+}
