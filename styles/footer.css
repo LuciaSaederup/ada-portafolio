@@ -15,7 +15,6 @@ footer ul {
 
 footer nav {
     display: inline-flex;
-    text-transform: uppercase;
 }
 
 footer a {
@@ -32,6 +31,7 @@ footer .icons li {
 
 footer nav a {
     padding: 10px;
+    text-transform: uppercase;
 }
 
 footer .icons a {
@@ -50,4 +50,9 @@ footer p {
     color: #EBBF9D;
 }
 
-@media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 400px) {
+    footer nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
