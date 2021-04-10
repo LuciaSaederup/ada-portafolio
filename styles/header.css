@@ -69,7 +69,7 @@ header {
     border: 1px solid #EBBF9D;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 476px) {
     header {
         display: none;
     }

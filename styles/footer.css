@@ -51,7 +51,7 @@ footer p {
     color: var(--primary-font-color);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 476px) {
     footer nav {
         display: none;
     }
